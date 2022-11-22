@@ -1,0 +1,61 @@
+
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+ 
+@media screen and (max-width:768px) {
+    .twoInOne{
+        flex-direction: column;
+    }
+    
+}
+
+  @media screen and (min-width: 769px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+    .secondHalf{
+        width: 50%;
+    }
+    .vmieo{
+        width: 500px;
+    }
+}
+@media screen and (min-width:630px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+    .twoSides{
+        flex-direction: row;
+    }
+   
+}
+
+@media screen and (min-width:426px) {
+  
+    #partTwo{
+        margin: 0 auto;
+    }
+   
+    #ourProjects img {
+        max-width: 600px;
+        
+    }
+    .theTeam{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+}
+
+
+
+
+
+
+
